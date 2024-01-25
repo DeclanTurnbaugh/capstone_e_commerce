@@ -1,0 +1,39 @@
+.product-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  background-color: #fff;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.25s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.1);
+}
+
+.product-title {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.product-image-card {
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 8px;
+  object-fit: contain;
+}
+
+.rating {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}

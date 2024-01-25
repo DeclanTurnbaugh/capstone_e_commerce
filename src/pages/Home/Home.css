@@ -1,0 +1,25 @@
+.hero {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+}
+
+.featured-products {
+  padding: 50px 0;
+}
+
+.featured-products h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
